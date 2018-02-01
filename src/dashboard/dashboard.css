@@ -1,0 +1,114 @@
+
+/*dashboard.js*/
+.dashboard{
+    max-width: 100%;
+    max-height:100%;
+}
+.header1{
+    background-color: red;
+    color: white;
+    max-width: 100%;
+    margin : 0 0 0 0;
+}
+
+
+/*.header1 .content{
+  float: left;
+}*/
+.header1 .content{
+    padding : 5px 10px;
+    font-size: 20px;
+    width:100%;
+}
+
+.header1 .logo{
+    width:100%;
+    float:right;
+    padding: 6px 3px;
+}
+
+.header2{
+    width: 100%;
+    margin : 0 ;
+}
+
+.wsize i{
+    height: 100px;
+    width: 100px;
+}
+
+.address p{
+    font-size: 10px;
+    text-align: right;
+}
+
+.buttonServer{
+    margin : 0 ;
+}
+
+button{
+    width: 100%;
+
+}
+
+.countryCollection{
+    margin: 0;
+}
+.collection{
+    width: 100%;
+    max-height: 200px;
+    height: 200px;
+    overflow-y: scroll;
+    margin : 0 ;
+}
+
+/*menus*/
+
+.menu{
+    display: inline;
+    width: 100%;
+    float:left;
+    margin : 10px 0 0 0 ;
+}
+
+.sub-menu{
+    float: left;
+    border: 2px solid white;
+    background-color: gray;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.social{
+    width:100%;
+    margin : 0 ;
+}
+
+.fa{
+    padding: 0 5px 0 5px;
+
+}
+
+.optionsBox{
+    display: inline;
+    width: 100%;
+    float: left;
+}
+
+.optionsBox p{
+    float: right;
+    margin: 0 0 0 25px;
+}
+
+/*footer*/
+.footer{
+    background-color: red;
+    color:white;
+    height: 20px;
+
+}
+
+.footer p{
+    text-align: center;
+    width: 100%;
+}

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
-import './App.css'
-
+import './App.css';
+import Dashboard from './dashboard/dashboard';
 import Login from './Login/login';
 
 
@@ -19,8 +19,8 @@ class App extends Component {
               <li><Link to='/topics'>Topics</Link></li>
             </ul>*/}
             <Route  path='/' exact component={Login} />
-            {/*<Route  path='/about' component={About} />
-            <Route  path='/topics' component={Topics} />*/}
+           <Route  path='/dashboard' component={Dashboard} />
+          {/* <Route  path='/topics' component={Topics} />*/}
         </div>
       </Router>
     );
